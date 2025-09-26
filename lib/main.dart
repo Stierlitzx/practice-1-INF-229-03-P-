@@ -209,7 +209,7 @@ class Splash extends StatelessWidget {
                           ),  
                         ),
 
-                        Container(
+                        SizedBox(
                           width: 274.0,
                           height: 42,
                           child: DecoratedBox(
