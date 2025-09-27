@@ -331,15 +331,104 @@ class Listing extends StatelessWidget {
 
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        Text(
-                          "  • Drive the design process with cross-functional\n    partners and design leads.\n  • Design new experiences and patterns in a\n    complex ecosystem and across platforms.\n  • Partner with UX Research and Content\n    Strategists through the design process.\n  • Work closely with Product and Engineering to\n    ensure a high quality implementation.",
-                          style: TextStyle(
-                            fontFamily: "Poppins",
-                            fontWeight: FontWeight.w400,
-                            color: Colors.black,
-                            fontSize: 14.0,
-                          ),
+                        
+                        Row(
+                          children: [
+                            Text(
+                              "  •  \n",
+                              style: TextStyle(
+                                fontFamily: "Poppins",
+                                fontWeight: FontWeight.w400,
+                                color: Colors.black,
+                                fontSize: 14.0,
+                              ),
+                            ),
+                            Expanded(
+                              child: Text(
+                                "Drive the design process with cross-functional partners and design leads.",
+                                style: TextStyle(
+                                  fontFamily: "Poppins",
+                                  fontWeight: FontWeight.w400,
+                                  color: Colors.black,
+                                  fontSize: 14.0,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              "  •  \n",
+                              style: TextStyle(
+                                fontFamily: "Poppins",
+                                fontWeight: FontWeight.w400,
+                                color: Colors.black,
+                                fontSize: 14.0,
+                              ),
+                            ),
+                            Expanded(
+                              child: Text(
+                                "Design new experiences and patterns in a complex ecosystem and across platforms.",
+                                style: TextStyle(
+                                  fontFamily: "Poppins",
+                                  fontWeight: FontWeight.w400,
+                                  color: Colors.black,
+                                  fontSize: 14.0,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              "  •  \n",
+                              style: TextStyle(
+                                fontFamily: "Poppins",
+                                fontWeight: FontWeight.w400,
+                                color: Colors.black,
+                                fontSize: 14.0,
+                              ),
+                            ),
+                            Expanded(
+                              child: Text(
+                                "Partner with UX Research and Content Strategists through the design process.",
+                                style: TextStyle(
+                                  fontFamily: "Poppins",
+                                  fontWeight: FontWeight.w400,
+                                  color: Colors.black,
+                                  fontSize: 14.0,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Text(
+                              "  •  \n",
+                              style: TextStyle(
+                                fontFamily: "Poppins",
+                                fontWeight: FontWeight.w400,
+                                color: Colors.black,
+                                fontSize: 14.0,
+                              ),
+                            ),
+                            Expanded(
+                              child: Text(
+                                "Work closely with Product and Engineering to ensure a high quality implementation.",
+                                style: TextStyle(
+                                  fontFamily: "Poppins",
+                                  fontWeight: FontWeight.w400,
+                                  color: Colors.black,
+                                  fontSize: 14.0,
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),
