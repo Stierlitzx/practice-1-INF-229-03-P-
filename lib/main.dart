@@ -135,7 +135,7 @@ class Splash extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              SizedBox(width: 100,),
+                              SizedBox(width: 75,),
                             ],
                           ),
                         ),
@@ -162,7 +162,7 @@ class Splash extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              SizedBox(width: 80.0,)
+                              SizedBox(width: 60.0,)
                             ],
                           ),
                         ),
@@ -189,7 +189,7 @@ class Splash extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              SizedBox(width: 90.0,)
+                              SizedBox(width: 70.0,)
                             ],
                           ),
                         ),
